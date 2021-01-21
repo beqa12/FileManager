@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity implements FileRecyclerAdaap
         adaapter.addFiles(Arrays.asList(getFiles()));
         adaapter.setFileItemClickListener(this);
         setClickClicklisteners();
+        Toast.makeText(this, "Toast Added", Toast.LENGTH_SHORT).show()
     }
 
     private void setClickClicklisteners() {
