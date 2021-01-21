@@ -49,6 +49,8 @@ public class MainActivity extends AppCompatActivity implements FileRecyclerAdaap
         adaapter.addFiles(Arrays.asList(getFiles()));
         adaapter.setFileItemClickListener(this);
         setClickClicklisteners();
+
+        System.out.println("I am working");
     }
 
     private void setClickClicklisteners() {
